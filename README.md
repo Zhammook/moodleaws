@@ -19,7 +19,7 @@ google-chrome --version
 ### Install ChromeDriver Binary for Linux
 ```
 sudo apt-get update
-wget https://chromedriver.storage.googleapis.com/98.0.4758.102/chromedriver_linux64.zip
+wget https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_linux64.zip
 sudo apt-get install unzip
 sudo apt-get update
 sudo unzip chromedriver_linux64.zip
@@ -139,7 +139,6 @@ fi
 . venv/bin/activate
 pip3 install faker
 pip3 install selenium
-pip3 install pytest
 cd /var/lib/jenkins/workspace/PythonSeleniumMoodle/
 python3 -m unittest discover --pattern=moodle_tests.py
 deactivate
